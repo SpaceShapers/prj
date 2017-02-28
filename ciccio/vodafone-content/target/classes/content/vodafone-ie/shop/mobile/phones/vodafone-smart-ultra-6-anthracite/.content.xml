@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/vodafone"
+        cq:lastModified="{Date}2016-01-17T23:48:52.390+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/vodafone/templates/product"
+        jcr:description="Now only €75"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Vodafone Smart Ultra 6 Anthracite"
+        sling:resourceType="vodafone/components/page/product"
+        image_1="/content/dam/vodafone/phone__vf-smart-ultra-6-anthracite.png"
+        thumb_1="/content/dam/vodafone/phone__vf-smart-ultra-6-anthracite.png">
+        <image
+            jcr:lastModified="{Date}2016-01-14T12:33:38.457+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="73220b33-2293-4674-9cb3-b73a857d16dc">
+    <jcr:content
+        cq:lastReplicated="{Date}2016-01-16T08:29:18.924+01:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="samsung-galaxy-s6-pdp-hello.jpg"
+        cq:parentPath="/content/dam/vodafone"
+        jcr:lastModified="{Date}2016-01-17T22:35:44.977+01:00"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2016-01-17T22:35:44.506+01:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="3ad40adb8c6c2dc3b2263d78aaad1d500ca0d0c4"
+            dam:size="{Long}406659"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2016-01-17T22:28:14.736+01:00"
+            jcr:lastModified="{Date}2016-01-17T22:35:42.931+01:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1026"
+            tiff:ImageWidth="{Long}1920"
+            xmp:CreatorTool="Adobe Photoshop CC 2014 Windows"
+            xmpMM:DocumentID="xmp.did:474C48BFC09511E48C69CB8361F1C39F"
+            xmpMM:InstanceID="xmp.iid:474C48BEC09511E48C69CB8361F1C39F">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="44FE052CD3045B288271E9DB6DF1C3DE"
+                stRef:instanceID="44FE052CD3045B288271E9DB6DF1C3DE"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
