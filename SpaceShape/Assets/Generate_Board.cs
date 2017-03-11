@@ -16,12 +16,12 @@ public class Generate_Board : MonoBehaviour {
 	
 	void Start()
 	{
-		CreateGrid (panel.transform.position.x, panel.transform.position.y);
+		CreateGrid (panel.transform.position.x, panel.transform.position.z);
 	}
 
 	public void CreateGrid(float x, float y)
 	{
-		GameObject piece = (GameObject)Instantiate (panel, new Vector3 (x, y, 0f), panel.transform.rotation);
+		GameObject piece = (GameObject)Instantiate (panel, new Vector3 (x,0f, y), panel.transform.rotation);
 		piece.SetActive (true);
 		counterCol++;
 		if (counterCol < col_num) 

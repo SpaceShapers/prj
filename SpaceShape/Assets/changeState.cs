@@ -12,6 +12,7 @@ public class changeState : MonoBehaviour {
 
 	void Start () {
 		stato = Libero;
+
 	}
 	
 	// Update is called once per frame
@@ -22,7 +23,7 @@ public class changeState : MonoBehaviour {
 			//ToDo
 			//se libero e la biscia ha cirocndato il quadrato, allora cambio lo stato
 			//setState(Occupato);
-			//Quad. setto colore del player con effetto
+			//Quad.GetComponent<SpriteRenderer>().color = Color.red setto colore del player con effetto
 
 		}
 
