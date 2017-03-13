@@ -28,6 +28,7 @@ public class NavPlayerScript : MonoBehaviour {
 		Ray getThere = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>().ScreenPointToRay (Input.mousePosition);
 		RaycastHit clicked;
 		Physics.Raycast (getThere, out clicked);
+		//.tag == "terrain")
 		if (clicked.collider.gameObject.tag == "terrain")
 			agent.SetDestination (new Vector3 (clicked.point.x, transform.position.y, clicked.point.z));
 	}
