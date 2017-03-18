@@ -22,6 +22,7 @@ public class changeState : MonoBehaviour {
 	public addPointerbdx bdx;
 	public addPointeradx adx;
 
+	public Color ColoreGiocatore;
 
 	void Start () {
 		stato = Libero;
@@ -39,7 +40,7 @@ public class changeState : MonoBehaviour {
 
 
 				//..il colore..
-				Quad.GetComponent<SpriteRenderer>().color = Color.red;
+				Quad.GetComponent<SpriteRenderer>().color = Color.red;//ColoreGiocatore
 				setState(Occupato);
 
 				//reinizializzo i trigger

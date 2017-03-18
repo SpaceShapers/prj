@@ -14,17 +14,20 @@ public class OnArea : MonoBehaviour {
 	
 	}
 	public void OnTriggerEnter(Collider Coll) {
+
 		isOnArea = true;
-		Debug.Log ("trigger colliso");
+
 	}
 
 	public void OnTriggerStay(Collider Coll) {
-		Debug.Log ("sul trigger");
+
 		isOnArea = true;
+
 	}
 
 	public void OnTriggerExit(Collider Coll) {
-		Debug.Log ("fuori trigger");
+	
 		isOnArea = false;
+
 	}
 }
