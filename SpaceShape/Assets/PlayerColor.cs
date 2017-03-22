@@ -19,7 +19,7 @@ public class PlayerColor : MonoBehaviour {
 //
 //	
 	void Start () {
-		Color[] coloriM = new Color[6];
+		Color[] coloriM = new Color[5];
 		coloriM[0] = _plrOne;
 		coloriM[1] = _plrTwo;
 		coloriM[2] = _plrThree;
