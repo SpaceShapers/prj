@@ -16,19 +16,18 @@ public class OnArea : MonoBehaviour {
 	public void OnTriggerEnter(Collider Coll) {
 
 		isOnArea = true;
-		Debug.Log("entra");
+
 	}
 
 	public void OnTriggerStay(Collider Coll) {
 
 		isOnArea = true;
-		Debug.Log("sta!");
 
 	}
 
 	public void OnTriggerExit(Collider Coll) {
 	
 		isOnArea = false;
-		Debug.Log("Esce");
+
 	}
 }
