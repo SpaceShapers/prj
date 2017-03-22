@@ -76,7 +76,7 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
-    agentRadius: .0599999987
+    agentRadius: .100000001
     agentHeight: 2
     agentSlope: 45
     agentClimb: .400000006
@@ -84,9 +84,10 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     accuratePlacement: 0
     minRegionArea: 2
-    cellSize: .0199999996
+    cellSize: .0333333351
     manualCellSize: 0
   m_NavMeshData: {fileID: 23800000, guid: e79b6e6c9c30bd44285b300ac2cf5c0e, type: 2}
+<<<<<<< HEAD
 --- !u!1 &171168288
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +307,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+=======
+>>>>>>> parent of f882eed... .
 --- !u!1 &420694318
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +322,7 @@ GameObject:
   - 114: {fileID: 420694323}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: terrain
+  m_TagString: trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -431,79 +434,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 556094585}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &560823615
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 560823619}
-  - 33: {fileID: 560823618}
-  - 65: {fileID: 560823617}
-  - 23: {fileID: 560823616}
-  m_Layer: 0
-  m_Name: alto
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &560823616
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 560823615}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
-  m_ReflectionProbeUsage: 1
-  m_ProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!65 &560823617
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 560823615}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &560823618
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 560823615}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &560823619
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 560823615}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0566667318, y: .0300000105, z: .656666756}
-  m_LocalScale: {x: .333333343, y: .333333343, z: .333333343}
-  m_Children: []
-  m_Father: {fileID: 888124732}
-  m_RootOrder: 2
 --- !u!1 &683614499
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,7 +569,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 6
+=======
+  m_RootOrder: 1
+>>>>>>> parent of f882eed... .
 --- !u!1 &888124728
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,13 +648,13 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -.685000002, y: .529999971, z: 2.02999997}
   m_LocalScale: {x: .300000012, y: .300000012, z: .300000012}
-  m_Children:
-  - {fileID: 1135307933}
-  - {fileID: 1393636214}
-  - {fileID: 560823619}
-  - {fileID: 1877963086}
+  m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 1
+=======
+  m_RootOrder: 3
+>>>>>>> parent of f882eed... .
 --- !u!195 &888124733
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -740,7 +674,7 @@ NavMeshAgent:
   m_Height: 1
   m_BaseOffset: .5
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 0
+  m_ObstacleAvoidanceType: 4
 --- !u!114 &888124734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -753,14 +687,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   touchControls: 1
-  alto: {fileID: 560823615}
-  basso: {fileID: 1877963082}
-  sinistra: {fileID: 1135307929}
-  destra: {fileID: 1393636210}
-  Nord: {fileID: 1467848144}
-  Sud: {fileID: 220667936}
-  Owest: {fileID: 380925476}
-  Est: {fileID: 171168288}
 --- !u!54 &888124735
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -768,7 +694,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 888124728}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -802,7 +728,7 @@ GameObject:
   - 114: {fileID: 899036675}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: terrain
+  m_TagString: trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -892,7 +818,6 @@ MonoBehaviour:
   bsx: {fileID: 0}
   bdx: {fileID: 0}
   adx: {fileID: 0}
-  ColoreGiocatore: {r: 0, g: 0, b: 0, a: 0}
 --- !u!4 &908847591
 Transform:
   m_ObjectHideFlags: 0
@@ -950,7 +875,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 7
+=======
+  m_RootOrder: 2
+>>>>>>> parent of f882eed... .
 --- !u!114 &947634947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1056,11 +985,15 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1053637052}
   m_LocalRotation: {x: .707106948, y: 2.60770321e-08, z: -2.98023224e-08, w: .707106709}
-  m_LocalPosition: {x: .930000007, y: 4.26000023, z: 2.71000004}
+  m_LocalPosition: {x: .930000007, y: 4.26000023, z: 3.11999989}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 5
+=======
+  m_RootOrder: 0
+>>>>>>> parent of f882eed... .
 --- !u!1 &1062382704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,7 +1007,7 @@ GameObject:
   - 114: {fileID: 1062382709}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: terrain
+  m_TagString: trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1125,24 +1058,22 @@ MonoBehaviour:
   cngstate: {fileID: 0}
   Area: {fileID: 556094585}
   OnAreas: {fileID: 0}
---- !u!1 &1135307929
+--- !u!1 &1283351439
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1135307933}
-  - 33: {fileID: 1135307932}
-  - 65: {fileID: 1135307931}
-  - 23: {fileID: 1135307930}
+  - 4: {fileID: 1283351440}
   m_Layer: 0
-  m_Name: sinistra
+  m_Name: QuadParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!23 &1135307930
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1276,10 +1207,14 @@ MeshFilter:
   m_GameObject: {fileID: 1234046052}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1234046057
+=======
+--- !u!4 &1283351440
+>>>>>>> parent of f882eed... .
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1234046052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -.115000002, y: .567079544, z: 2.83170915}
@@ -1287,6 +1222,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
+=======
+  m_GameObject: {fileID: 1283351439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.51644659, y: 1.51069069, z: 3.5687573}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 683614500}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+>>>>>>> parent of f882eed... .
 --- !u!1 &1344124313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1359,7 +1304,11 @@ Transform:
   m_LocalScale: {x: 10, y: .5, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 9
+=======
+  m_RootOrder: 5
+>>>>>>> parent of f882eed... .
 --- !u!1 &1378329859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,7 +1322,7 @@ GameObject:
   - 114: {fileID: 1378329864}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: terrain
+  m_TagString: trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1424,6 +1373,7 @@ MonoBehaviour:
   cngstate: {fileID: 0}
   Area: {fileID: 556094585}
   OnAreas: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1393636210
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,6 +1520,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
+=======
+>>>>>>> parent of f882eed... .
 --- !u!1 &1675022264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,6 +1594,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 8
 --- !u!1 &1877963082
 GameObject:
@@ -1716,3 +1669,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 888124732}
   m_RootOrder: 3
+=======
+  m_RootOrder: 4
+>>>>>>> parent of f882eed... .

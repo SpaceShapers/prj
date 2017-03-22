@@ -9,7 +9,11 @@ public class NavPlayerScript : MonoBehaviour {
 	void Start () 
 	{
 	
+<<<<<<< HEAD
 		agent = GetComponent<UnityEngine.AI.NavMeshAgent> ();
+=======
+		agent = GetComponent<NavMeshAgent> ();
+>>>>>>> parent of f882eed... .
 
 	}
 
