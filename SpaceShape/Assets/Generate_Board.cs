@@ -14,7 +14,7 @@ public class Generate_Board : MonoBehaviour {
 	private int counterRow = 1;
 	
 	
-	public void Start()
+	void Start()
 	{
 		CreateGrid (panel.transform.position.x, panel.transform.position.z);
 	}
