@@ -88,6 +88,7 @@ NavMeshSettings:
     manualCellSize: 0
   m_NavMeshData: {fileID: 23800000, guid: e79b6e6c9c30bd44285b300ac2cf5c0e, type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &171168288
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +308,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+=======
+>>>>>>> parent of f882eed... .
 =======
 >>>>>>> parent of f882eed... .
 --- !u!1 &420694318
@@ -570,7 +573,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 6
+=======
+  m_RootOrder: 1
+>>>>>>> parent of f882eed... .
 =======
   m_RootOrder: 1
 >>>>>>> parent of f882eed... .
@@ -651,7 +658,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 1
+=======
+  m_RootOrder: 3
+>>>>>>> parent of f882eed... .
 =======
   m_RootOrder: 3
 >>>>>>> parent of f882eed... .
@@ -876,7 +887,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 7
+=======
+  m_RootOrder: 2
+>>>>>>> parent of f882eed... .
 =======
   m_RootOrder: 2
 >>>>>>> parent of f882eed... .
@@ -990,7 +1005,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 5
+=======
+  m_RootOrder: 0
+>>>>>>> parent of f882eed... .
 =======
   m_RootOrder: 0
 >>>>>>> parent of f882eed... .
@@ -1073,6 +1092,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!23 &1135307930
 MeshRenderer:
@@ -1210,10 +1230,14 @@ MeshFilter:
 =======
 --- !u!4 &1283351440
 >>>>>>> parent of f882eed... .
+=======
+--- !u!4 &1283351440
+>>>>>>> parent of f882eed... .
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 1234046052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1223,6 +1247,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
 =======
+=======
+>>>>>>> parent of f882eed... .
   m_GameObject: {fileID: 1283351439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.51644659, y: 1.51069069, z: 3.5687573}
@@ -1231,6 +1257,9 @@ Transform:
   - {fileID: 683614500}
   m_Father: {fileID: 0}
   m_RootOrder: 6
+<<<<<<< HEAD
+>>>>>>> parent of f882eed... .
+=======
 >>>>>>> parent of f882eed... .
 --- !u!1 &1344124313
 GameObject:
@@ -1305,7 +1334,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 9
+=======
+  m_RootOrder: 5
+>>>>>>> parent of f882eed... .
 =======
   m_RootOrder: 5
 >>>>>>> parent of f882eed... .
@@ -1373,6 +1406,7 @@ MonoBehaviour:
   cngstate: {fileID: 0}
   Area: {fileID: 556094585}
   OnAreas: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1393636210
 GameObject:
@@ -1522,6 +1556,8 @@ Transform:
   m_RootOrder: 10
 =======
 >>>>>>> parent of f882eed... .
+=======
+>>>>>>> parent of f882eed... .
 --- !u!1 &1675022264
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,6 +1630,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_RootOrder: 8
 --- !u!1 &1877963082
@@ -1669,6 +1706,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 888124732}
   m_RootOrder: 3
+=======
+  m_RootOrder: 4
+>>>>>>> parent of f882eed... .
 =======
   m_RootOrder: 4
 >>>>>>> parent of f882eed... .
