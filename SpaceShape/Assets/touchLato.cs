@@ -23,7 +23,7 @@ public class touchLato : MonoBehaviour {
 
 		if (nTouches > 0) 
 		{
-			for (ii = 0; ii < nTouches; ii++)
+			for (ii = 0; ii < nTouches; ii++);
 			{
 
 				Touch t = Input.GetTouch(ii);
