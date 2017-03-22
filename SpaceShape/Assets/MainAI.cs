@@ -23,7 +23,7 @@ public class MainAI : MonoBehaviour {
 	//Metodo per il set dell'oggetto BO player, colore numero giocatore etc
 	void SetColor () {
 		Bo_Player[] BoPlayer = new Bo_Player[numeroGiocatori];
-		for (ii = 0; ii < numeroGiocatori; ii++);
+		for (ii = 0; ii < numeroGiocatori; ii++)
 		{
 			BoPlayer[ii].Ngiocatore(ii);
 			BoPlayer[ii].Colore(ColorePlayer.coloriM[ii]);
