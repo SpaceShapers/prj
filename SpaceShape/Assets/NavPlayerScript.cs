@@ -14,6 +14,9 @@ public class NavPlayerScript : MonoBehaviour {
 =======
 		agent = GetComponent<NavMeshAgent> ();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of f882eed... .
+=======
 >>>>>>> parent of f882eed... .
 =======
 >>>>>>> parent of f882eed... .
